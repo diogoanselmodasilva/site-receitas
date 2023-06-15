@@ -12,7 +12,10 @@
    menu li {
     display: inline;
    }
-   
+   #ilogin {
+    font-size: 2em;
+    width: 5px;
+   }
    span#hamburguer {
     display: none;
    }
