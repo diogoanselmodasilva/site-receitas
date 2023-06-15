@@ -1,0 +1,79 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor1: #FF1500;
+    --cor2: #B31F12;
+    --cor3: #DEFF05;
+    --cor4: #5401B8;
+}
+body, html {
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+    background: var(--cor4);
+    box-sizing: border-box;
+}
+header {
+    display: block;
+    width: 90vw;
+    margin: auto;
+    background-color: var(--cor2);
+}
+header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+header p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+menu {
+    text-align: center;
+    background-color: var(--cor1);
+}
+menu ul{
+    width: 10px;
+    display: none;
+}
+menu li{
+    list-style-type: none;
+    padding: 5px;
+}
+menu a{
+    color: white;
+    text-decoration: none;
+}
+menu a:hover {
+    color: gray;
+}
+span#hamburguer {
+    display: block;
+    color: white;
+    text-align: justify;
+}
+span#hamburguer:hover {
+    color: gray;
+    cursor: pointer;
+}
+main {
+    position: relative;
+    background-color: white;
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+}
+article {
+    position: relative;
+}
+div#ibrigadeiro {
+    background: url(../midia/brigadeiro.jpg) no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #fff;
+}
