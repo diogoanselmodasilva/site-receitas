@@ -70,10 +70,29 @@ main {
 article {
     position: relative;
 }
+.destaque {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    padding-top: 10px;
+    text-align: center;
+}
+article p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    text-decoration: underline;
+    padding: 5px;
+}
 div#ibrigadeiro {
+    position: relative;
+    display: block;
     background: url(../midia/brigadeiro.jpg) no-repeat;
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    background-position: bottom;
+    width: 280px;
+    height: 300px;
     border: 1px solid #fff;
+    left: 20%;
+    bottom: -40px;   
 }
