@@ -1,0 +1,16 @@
+@charset "UTF-8";
+*{
+    padding: 10px;
+    margin: 10px;
+}
+menu {
+    display: none;
+}
+main {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+aside::after {
+    contain: "Esse artigo foi impresso do site https://github.io/diogoanselmodasilva/site-receitas/";
+}
