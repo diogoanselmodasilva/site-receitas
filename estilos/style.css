@@ -15,7 +15,7 @@ html, body {
 }
 header {
     display: block;
-    width: 96vw;
+    width: 100vw;
     margin: auto;
     background-color: var(--cor2);
 }
@@ -60,7 +60,7 @@ span#hamburguer:hover {
 main {
     position: relative;
     background-color: white;
-    width: 90vw;
+    width: 100vw;
     height: 800px;
     margin: auto;
 }
