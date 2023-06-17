@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* aqui será a estlização da pagina brigadeiro.html */
+h2 {
+    padding: 20px;
+}
+article ul {
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    text-indent: 10px;
+}
+aside p {
+    text-indent: 0.8em;
+}

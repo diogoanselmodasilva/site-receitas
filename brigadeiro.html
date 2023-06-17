@@ -3,16 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="midia/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/conteudo.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
+    <link rel="stylesheet" href="estilos/impressao.css" media="print">
+    <script src="click.js"></script>
     <title>Brigadeiro</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-
+        <h1>receita de brigadeiro</h1>
+        <menu>
+            <ul id="itens">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Receitas regionais</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Sobremesas</a></li>
+                <li><a href="#">Lanches</a></li>
+                <li><a href="#">Bebidas</a></li>
+                <li><a href="login.html">login<span class="material-icons" id="ilogin">person</span></a></li>
+            </ul>
+            <span class="material-icons" id="hamburguer" onclick="clickMenu()">menu</span>
+        </menu>
     </header>
     <main>
         <article>
-            
+            <h2 class="destaque">Igredientes</h2>
+            <ul>
+                <li>1 caixa de leite condensado</li>
+                <li>4 colheres de sopa de chocolate em pó</li>
+                <li>1 colher de sopa de margarina</li>
+                <li>chocolate granulado</li>
+            </ul>
+            <h2 class="destaque">Modo de preparo</h2>
+            <p>Tempo de preparo: 25min</p>
+            <ol>
+                <li>Em uma panela funda, acrescente o leite condensado, a margarina e o chocolate em pó.</li>
+                <li>Cozinhe em fogo médio e mexa até que o brigadeiro comece a desgrudar da panela.</li>
+                <li>Deixe esfriar e faça pequenas bolas com a mão passando a massa no chocolate granulado.</li>
+            </ol>
+            <div class="container">
+                <img src="midia/brigadeiro.jpg" alt="brigadeiro" width="280px" height="280px">
+            </div>
         </article>
+        <aside>
+            <h2>Como surgiu o brigadeiro?</h2>
+            <p>Conforme relatam historiadores da alimentação, o nome seria uma homenagem ao brigadeiro da Força Aérea Brasileira Eduardo Gomes. Durante a candidatura do militar à presidência da República pela União Democrática Nacional na eleição de 1945, um grupo de mulheres paulistanas do bairro do Pacaembu, que eram engajadas na campanha do candidato, organizaram festas para promover sua candidatura. O doce teria sido criado por essas mulheres durante a primeira campanha do candidato à presidência, pela conservadora UDN, logo após a queda de Getúlio Vargas.</p>
+            <p>A guloseima, feita de leite condensado, manteiga, açúcar e chocolate em pó, inicialmente feita como uma forma de arrecadar fundos para a campanha, rapidamente ganhou popularidade e se espalhou pelo resto do país junto à campanha de Gomes. Como as festas dos correligionários e cabos eleitorais eram muito disputadas pela população, estes logo começaram a chamar os amigos para irem comer o "docinho do brigadeiro". Com o tempo, o nome "brigadeiro" se tornou tão associado ao doce que o mesmo passou a ser conhecido apenas como "brigadeiro". Apesar do apoio recebido, Eduardo Gomes foi derrotado no pleito, tendo a eleição sido vencida pelo então general Eurico Gaspar Dutra.</p>
+        </aside>
     </main>
 </body>
 </html>

@@ -149,8 +149,8 @@ div#laranja:after {
 aside {
     background-color: var(--cor3);
     display: block;
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 5px;
+    padding: 5px;
   
 }
 aside h3 {
